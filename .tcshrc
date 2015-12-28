@@ -1,0 +1,13 @@
+setenv CC_GROUP zch49-tetra
+#setenv PATH ~/.bin:$PATH
+
+source ~/.tetrasubtools_init/init.csh
+
+alias ll ls -al --color=auto
+alias tetra cd /vob/tetra
+alias tetra_packet cd /vob/tetra_packet
+alias arm-gdb /vob/tetra/ssp_tools/gnu/gcc-4.7.3-eglibc-2.17-binutils-2.23.1/x86_64-redhat-linux/arm-davinci2-linux-gnueabi/bin/arm-davinci2-linux-gnueabi-gdb
+alias arm-gcc /vob/tetra/ssp_tools/gnu/gcc-4.7.3-eglibc-2.17-binutils-2.23.1/x86_64-redhat-linux/arm-davinci2-linux-gnueabi/bin/arm-davinci2-linux-gnueabi-gcc
+#alias arm-gdb /vob/tetra/ssp_tools/gnu/gcc-4.7.3-eglibc-2.17-binutils-2.23.1/x86_64-redhat-linux/arm-davinci2-linux-gnueabi/bin/arm-davinci2-linux-gnueabi-gdb
+alias ssp_linux cd /vobs/ssp_linux
+alias ngch cd /vob/tetra/ngch
